@@ -28,6 +28,14 @@
         <item name="android:textSize">@dimen/fontMediam</item>
     </style>
 
+    <style name="largeButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">154dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:fontFamily">@font/yomogi_regular</item>
+        <item name="android:textSize">@dimen/fontMediam</item>
+        <item name="android:background">@drawable/squre_button</item>
+    </style>
+
     <style name="numberButton" parent="normalButton">
         <item name="android:background">@drawable/squre_button</item>
     </style>
