@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="normal">16sp</dimen>
-    <dimen name="giant">36sp</dimen>
+    <dimen name="normal">28sp</dimen>
+    <dimen name="giant">72sp</dimen>
     <dimen name="fontMediam">32sp</dimen>
 </resources>

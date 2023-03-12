@@ -15,20 +15,20 @@
     </style>
 
 <!--    button-->
-    <style name="calcButton" parent="Widget.AppCompat.Button">
+    <style name="calcButton" >
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
     </style>
 
-    <style name="normalButton" parent="Widget.AppCompat.Button">
+    <style name="normalButton" >
         <item name="android:layout_width">64dp</item>
         <item name="android:layout_height">64dp</item>
         <item name="android:fontFamily">@font/yomogi_regular</item>
         <item name="android:textSize">@dimen/fontMediam</item>
     </style>
 
-    <style name="largeButton" parent="Widget.AppCompat.Button">
+    <style name="largeButton" >
         <item name="android:layout_width">154dp</item>
         <item name="android:layout_height">64dp</item>
         <item name="android:fontFamily">@font/yomogi_regular</item>

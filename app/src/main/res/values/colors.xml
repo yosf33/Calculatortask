@@ -13,8 +13,11 @@
     <color name="frame">#2F3740</color>
     <color name="screen">#99404B57</color>
     <color name="operation_button">#FCACC9</color>
+    <color name="operation_button_dark">#A16F81</color>
     <color name="numbers_button">#C9F2F1</color>
+    <color name="numbers_button_dark">#566868</color>
     <color name="equal">#FAD716</color>
+    <color name="equal_dark">#97820E</color>
     <color name="font_color">#D4D9E1</color>
 
 
