@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/frame"
+    android:padding="24dp"
+    >
+
+<!--for screen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/digital_7mono_italic"
+            android:gravity="end"
+            android:text="12 + 5 + 2019"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/normal"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/digital_7mono_italic"
+            android:gravity="end"
+            android:text="2412"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/giant" />
+
+    </LinearLayout>
+<!--    end screen-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:background="@color/frame"/>-->
+
+<!--    this for choosing systems-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1"-->
+<!--        >-->
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:drawable/btn_dropdown"-->
+<!--            android:spinnerMode="dropdown"-->
+<!--            android:layout_weight="1"-->
+<!--            />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner2"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:drawable/btn_dropdown"-->
+<!--            android:spinnerMode="dropdown"-->
+<!--            android:layout_weight="1"-->
+<!--            />-->
+
+<!--    </LinearLayout>&lt;!&ndash;    end choosing system&ndash;&gt;-->
+<!--    -->
+
+
+<!--this for numbers-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="1"
+            android:fontFamily="@font/yomogi_regular"
+            android:textSize="@dimen/fontMediam"
+            android:background="@drawable/squre_button"/>
+<!--            /> <Button-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="1"-->
+<!--            android:fontFamily="@font/yomogi_regular"-->
+<!--            android:textSize="@dimen/fontMediam"-->
+<!--            android:background="@drawable/squre_button"-->
+<!--            /> <Button-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:text="1"-->
+<!--            android:fontFamily="@font/yomogi_regular"-->
+<!--            android:textSize="@dimen/fontMediam"-->
+<!--            android:background="@drawable/squre_button"-->
+<!--            />-->
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="1"
+            android:fontFamily="@font/yomogi_regular"
+            android:textSize="@dimen/fontMediam"
+            android:background="@drawable/circle_button"
+            />
+
+<!--        first column-->
+<!--<LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:layout_margin="16dp"-->
+<!--    android:orientation="vertical"-->
+<!--    >&lt;!&ndash;    first column component here&ndash;&gt;-->
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="A"-->
+<!--        android:background="@drawable/circlar_button"-->
+<!--        />-->
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="D"-->
+<!--        /><Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="7"-->
+<!--        /><Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="4"-->
+<!--        /><Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="1"-->
+<!--        /><Button-->
+<!--        style="@style/calcButton"-->
+
+<!--        android:text="."-->
+<!--        />-->
+
+<!--</LinearLayout>-->
+<!--&lt;!&ndash;        end first column&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        second column&ndash;&gt;-->
+<!--<LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_margin="16dp"-->
+<!--    >-->
+<!--&lt;!&ndash;    second column component here&ndash;&gt;-->
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="B"-->
+<!--        />-->
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="E"-->
+<!--        /><Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:text="8"-->
+<!--    /><Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:text="5"-->
+<!--    /><Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:text="2"-->
+<!--    /><Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:text="0"-->
+<!--    />-->
+<!--</LinearLayout>-->
+<!--        &lt;!&ndash;        end second column&ndash;&gt;-->
+
+<!--&lt;!&ndash;        third column&ndash;&gt;-->
+<!--<LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:layout_margin="16dp"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+<!--&lt;!&ndash;    third column component here&ndash;&gt;-->
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="C"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="F" />-->
+
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--    android:text="9"-->
+<!--    /><Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:text="6"-->
+<!--    /><Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:text="3"-->
+<!--    />-->
+<!--    <Button-->
+<!--    style="@style/calcButton"-->
+<!--    android:visibility="invisible"-->
+<!--        android:enabled="false"-->
+
+<!--    />-->
+<!--</LinearLayout>-->
+<!--        &lt;!&ndash;        end third column&ndash;&gt;-->
+
+<!--&lt;!&ndash;        fourth column&ndash;&gt;-->
+<!--<LinearLayout-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_weight="1"-->
+<!--    android:layout_margin="16dp"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+<!--&lt;!&ndash;    fourth column component here&ndash;&gt;-->
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:text="Del"-->
+
+<!--        android:layout_weight="1"-->
+<!--        />-->
+
+
+<!--    <Button-->
+<!--        style="@style/calcButton"-->
+<!--        android:layout_weight="8"-->
+<!--        android:text="=" />-->
+<!--</LinearLayout>-->
+        <!--        end fourth column-->
+
+    </LinearLayout>
+<!--    end column-->
+
+</LinearLayout>
