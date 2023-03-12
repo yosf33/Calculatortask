@@ -9,6 +9,7 @@
     >
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
@@ -40,45 +41,41 @@
 
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
         <Button
-           style="@style/numberButton"
-            android:text="1"
-            android:background="@drawable/squre_button"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"/>
-
-        <Button
-            style="@style/numberButton"
-            android:text="1"
-            android:background="@drawable/squre_button"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"/>
-
-        <Button
-            style="@style/numberButton"
-            android:text="1"
-            android:background="@drawable/squre_button"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="0dp"/>
-
-        <Button
-            style="@style/charButton"
+            style="@style/charSquareButton"
             android:text="A"
             />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <Button
+            style="@style/charSquareButton"
+            android:text="A"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <Button
+            style="@style/charSquareButton"
+            android:text="A"
+            />
+
+        <View
+            android:layout_width="64dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
 
 <!--        first column-->
 <!--<LinearLayout-->
@@ -206,6 +203,177 @@
 <!--        android:layout_weight="8"-->
 <!--        android:text="=" />-->
 <!--</LinearLayout>-->
+        <!--        end fourth column-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        >
+        <Button
+            style="@style/numberButton"
+            android:text="1"
+            android:background="@drawable/squre_button"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <Button
+            style="@style/numberButton"
+            android:text="1"
+            android:background="@drawable/squre_button"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <Button
+            style="@style/numberButton"
+            android:text="1"
+            android:background="@drawable/squre_button"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+        <Button
+            style="@style/charButton"
+            android:text="A"
+            />
+
+        <!--        first column-->
+        <!--<LinearLayout-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="match_parent"-->
+        <!--    android:layout_weight="1"-->
+        <!--    android:layout_margin="16dp"-->
+        <!--    android:orientation="vertical"-->
+        <!--    >&lt;!&ndash;    first column component here&ndash;&gt;-->
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="A"-->
+        <!--        android:background="@drawable/circlar_button"-->
+        <!--        />-->
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="D"-->
+        <!--        /><Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="7"-->
+        <!--        /><Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="4"-->
+        <!--        /><Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="1"-->
+        <!--        /><Button-->
+        <!--        style="@style/calcButton"-->
+
+        <!--        android:text="."-->
+        <!--        />-->
+
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash;        end first column&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;        second column&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="match_parent"-->
+        <!--    android:layout_weight="1"-->
+        <!--    android:orientation="vertical"-->
+        <!--    android:layout_margin="16dp"-->
+        <!--    >-->
+        <!--&lt;!&ndash;    second column component here&ndash;&gt;-->
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="B"-->
+        <!--        />-->
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="E"-->
+        <!--        /><Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:text="8"-->
+        <!--    /><Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:text="5"-->
+        <!--    /><Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:text="2"-->
+        <!--    /><Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:text="0"-->
+        <!--    />-->
+        <!--</LinearLayout>-->
+        <!--        &lt;!&ndash;        end second column&ndash;&gt;-->
+
+        <!--&lt;!&ndash;        third column&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="match_parent"-->
+        <!--    android:layout_weight="1"-->
+        <!--    android:layout_margin="16dp"-->
+        <!--    android:orientation="vertical"-->
+        <!--    >-->
+        <!--&lt;!&ndash;    third column component here&ndash;&gt;-->
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="C"-->
+        <!--        />-->
+
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="F" />-->
+
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--    android:text="9"-->
+        <!--    /><Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:text="6"-->
+        <!--    /><Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:text="3"-->
+        <!--    />-->
+        <!--    <Button-->
+        <!--    style="@style/calcButton"-->
+        <!--    android:visibility="invisible"-->
+        <!--        android:enabled="false"-->
+
+        <!--    />-->
+        <!--</LinearLayout>-->
+        <!--        &lt;!&ndash;        end third column&ndash;&gt;-->
+
+        <!--&lt;!&ndash;        fourth column&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--    android:layout_width="0dp"-->
+        <!--    android:layout_height="match_parent"-->
+        <!--    android:layout_weight="1"-->
+        <!--    android:layout_margin="16dp"-->
+        <!--    android:orientation="vertical"-->
+        <!--    >-->
+        <!--&lt;!&ndash;    fourth column component here&ndash;&gt;-->
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:text="Del"-->
+
+        <!--        android:layout_weight="1"-->
+        <!--        />-->
+
+
+        <!--    <Button-->
+        <!--        style="@style/calcButton"-->
+        <!--        android:layout_weight="8"-->
+        <!--        android:text="=" />-->
+        <!--</LinearLayout>-->
         <!--        end fourth column-->
 
     </LinearLayout>
