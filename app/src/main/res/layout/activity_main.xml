@@ -232,7 +232,9 @@
         <Button
             style="@style/numberButton"
             android:background="@drawable/squre_button"
-            android:text="." />
+            android:text="."
+            android:gravity="center"
+            />
 
         <View
             android:layout_width="0dp"
@@ -241,8 +243,8 @@
 
         <Button
             style="@style/equalButton"
+            android:layout_gravity="center"
             android:text="del" />
-
 
 
     </LinearLayout>
