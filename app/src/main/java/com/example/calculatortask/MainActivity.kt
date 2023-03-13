@@ -24,18 +24,33 @@ class MainActivity : AppCompatActivity() {
     lateinit var buttonD:Button
     lateinit var buttonE:Button
     lateinit var buttonF:Button
-    lateinit var buttonDelete:Button
+    lateinit var clearButton:Button
     lateinit var buttonFloatPoint:Button
     lateinit var textNumber:TextView
-
-
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
+        override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+            initView()
+            addCallBacks()
     }
-    fun onClickNumber(v: View) {
 
+    private fun addCallBacks(){
+        clearButton.setOnClickListener{
+        clear()
+        }
+    }
+
+    fun clear(){
+        textNumber.text=""
+    }
+    private fun initView(){
+        clearButton=findViewById(R.id.button_digit_delete)
+        textNumber =findViewById(R.id.text_number)
+    }
+    fun onClickNumber(v: View){
+        val newDigit = (v as Button).text.toString()
+        val oldDigits = textNumber.text.toString()
+        val newTextNumber = oldDigits + newDigit
+        textNumber.text = newTextNumber
     }
 }
