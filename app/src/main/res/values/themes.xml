@@ -40,6 +40,10 @@
         <item name="android:background">@drawable/squre_button</item>
     </style>
 
+    <style name="floatButton" parent="normalButton">
+        <item name="android:background">@drawable/squre_button</item>
+    </style>
+
     <style name="charButton" parent="normalButton">
         <item name="android:background">@drawable/circle_button</item>
     </style>
